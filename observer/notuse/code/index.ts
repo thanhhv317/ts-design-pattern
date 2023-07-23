@@ -1,7 +1,5 @@
-// import { VideoData } from "./video-data";
+import { VideoData } from "./video-data";
 
+const videoData = new VideoData();
 
-// const videoData = new VideoData();
-
-// videoData.setTitle("Observer pattern");
-console.log(123);
+videoData.setTitle("Observer pattern");
